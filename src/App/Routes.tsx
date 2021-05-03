@@ -5,11 +5,14 @@ import constants from '../config/constants';
 import AuthenticatedRoute from '../components/AuthenticatedRoute';
 import Login from '../pages/Login';
 import Dashboard from '../pages/Dashboard';
+import { authenticatedUserVar } from '../reactiveVariables';
 
 interface IProps {}
 
 const Routes = (props: IProps) => {
-  const role: string = constants.roles.admin;
+  const authenticatedUser = authenticatedUserVar();
+  const user = authenticatedUser?.user;
+  const role: string = user.role as string;
 
   return (
     <Router>

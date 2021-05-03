@@ -1,0 +1,10 @@
+
+  .edit-text {
+    color:$white;
+    font-size: 10px;
+  }
+  
+  .edit-icon:hover ~ .edit-text {
+  color:$black;
+  
+  }

@@ -1,0 +1,42 @@
+@import 'abstracts/variables';
+@import 'layouts/forms';
+@import 'layouts/form';
+@import 'layouts/paper';
+@import 'pages/login';
+@import 'components/button.scss';
+@import 'pages/dashboard.scss';
+
+* {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+  background-color: #f5f6f8;
+  overflow-y: auto !important;
+}
+.not-found {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  margin-top: 40px;
+  color: rgb(98, 81, 81);
+  font-size: large;
+  padding-top: 10px;
+}
+
+.link {
+  cursor: pointer;
+}

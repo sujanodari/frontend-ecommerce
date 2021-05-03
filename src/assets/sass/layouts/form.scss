@@ -1,0 +1,56 @@
+.textfield-input {
+  margin-left: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.logo-img {
+  margin-left: 30%;
+  margin-top: 150px;
+}
+
+.xs-size {
+  display: none;
+}
+.lg-size {
+  display: flex;
+  align-items: center;
+}
+.adddialogbox {
+  width: 400px;
+  padding-top: 0px !important ;
+}
+
+.form-margins {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-dialog-title {
+  margin-left: 20px;
+}
+
+.typography-text {
+  padding: 0px 0 10px 0px;
+}
+
+.error-alert{
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 800px) {
+  .map {
+    width: 100%;
+  }
+  .lg-size {
+    display: none;
+  }
+  .xs-size {
+    display: flex;
+    align-items: center;
+  }
+  
+}

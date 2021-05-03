@@ -1,0 +1,38 @@
+.form-margin {
+  margin-top: 5%;
+}
+
+.editcontainer {
+  margin-right: auto;
+}
+
+.edit-heading {
+  margin-bottom: -24px;
+}
+
+.addcontainer {
+  margin-left: 56px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  position: absolute;
+}
+
+.addposttitle {
+  color: blueviolet;
+}
+
+.form-input {
+  width: auto;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-12 {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  padding: 20px 20px 20px 20px;
+}
+@media screen and (max-width: 800px) {
+  .edit-heading {
+    margin-bottom: 5px;
+  }
+}

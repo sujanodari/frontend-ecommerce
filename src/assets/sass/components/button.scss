@@ -1,0 +1,80 @@
+.add-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  float: right;
+  margin-bottom: 2%;
+}
+
+.onsubmit {
+  background-color: #107fc9;
+  color: $white;
+  border-color: #107fc9;
+  margin-top: 10px;
+}
+.cancel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 85%;
+  margin-top: 10px;
+}
+.add-property-button {
+  margin-top: 3%;
+  width: 20%;
+}
+.change-password {
+  margin-top: 50px;
+}
+
+.edit {
+  float: right;
+}
+
+.add-propertytype {
+  margin-bottom: 40px;
+}
+
+.approve-button {
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  float: right;
+  margin-bottom: 2%;
+  margin-right: 0.5%;
+}
+
+.user-button {
+  margin-left: 2%;
+}
+
+.login-submit {
+  margin: 3% 0 3% 0;
+}
+
+.button-margin {
+  margin-top: 7%;
+}
+
+.downloadbtn {
+  box-shadow: inset 0px 1px 0px 0px #3c8dbc;
+  background-color: #3c8dbc;
+  border-radius: 6px;
+  background-color: #3c8dbc;
+  margin-bottom: 10px;
+  color: $white;
+  font-weight: bold;
+  cursor: pointer;
+  text-shadow: 0px 1px 0px #9b14b3;
+  padding: 6px 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .add-button {
+    width: min-content;
+  }
+  .approve-button {
+    float: left;
+    margin-bottom: 15%;
+  }
+}

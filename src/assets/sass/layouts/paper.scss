@@ -1,0 +1,87 @@
+.paper-header {
+  height: 70px;
+  margin-bottom: 5%;
+}
+.textfield-input {
+  margin-left: 0px;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.detail-grid {
+  margin-top: 50px;
+}
+
+.detailPropertytype {
+  text-align: center;
+}
+
+.label {
+  padding-top: 10px;
+}
+.profile-img {
+  margin-left: 30%;
+  position: relative;
+  color: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img-text {
+  visibility: hidden;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circular-loading {
+  color: $primary;
+}
+.linear-loading {
+  margin-top: 2%;
+  background-color: $primary;
+  color: $primary;
+}
+.MuiLinearProgress-barColorPrimary {
+  background-color: $cadeea;
+}
+.image-loading {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img:hover .profile-img-text {
+  visibility: visible;
+}
+
+.breadcrum-paper {
+  float: right;
+}
+.showprofile {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.dashboard-paper{
+  margin-top: 100px;
+  height: 100px;
+}
+
+.total-data{
+  text-align: center;
+}
+@media screen and (max-width: 800px) {
+  .detail-grid {
+    margin-left: 30px;
+  }
+}
